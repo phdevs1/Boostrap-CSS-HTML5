@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after{
+	box-sizing:border-box
+	padding: 0;
+	margin: 0;
+
+}
+
+
+body{
+	font-family: 'Cormorant Garamond', serif;
+}
+
+.navbar-custom, .dropdown-custom{
+	background-color: rgba(1,1,1,0.3)!important;
+	color:black !important;
+
+}
+
+.navbar-custom a{
+	color: #fff !important;
+}
+
+.dropdown-custom a:hover {
+	color: #111 !important;
+}
+.container-custom{
+	padding: 10%;
+}
+
+.container-custom-link{
+	padding: 5%;
+}
+
+.container-custom-link a{
+	width: 150px;
+}
+.icon-custom{
+	font-size: 25px;
+}
+.footer-custom{
+	background-color: rgba(1,1,1,0.7);
+	padding: 10%;
+	color: #fff;
+
+}
+
+.footer-custon a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+}
+
+.img-footer{
+	padding:5%;
+}
